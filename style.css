@@ -1,9 +1,20 @@
 body {
     font-family: Tahoma;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: serif;
+    font-weight: 400;
+}
+
+h1 {
+    margin-bottom: -0.5em;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
 }
 
 /*****************************
@@ -15,4 +26,33 @@ main {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+/*****************************
+ * Header                    *
+ *****************************/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px 40px;
+    background-color: #dded99;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-item {
+    color: #000000;
+    border-width: 4px;
+    border-style: ridge;
+    border-color: #88cc99;
+    padding: 1em;
+}
+
+.menu-item:hover {
+    color: darkgreen;
 }
