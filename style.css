@@ -1,5 +1,6 @@
 htmL {
     background: url("imagens/aaron-swartz.jpg");
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -54,10 +55,6 @@ header {
 
 .menu-item:hover {
     color: rebeccapurple;
-}
-
-b {
-    text-decoration: underline wavy red;
 }
 
 .subtitle {
