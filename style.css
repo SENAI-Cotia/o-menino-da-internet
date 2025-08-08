@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    font-size: 48px;
     margin-bottom: -0.5em;
 }
 
@@ -24,23 +25,6 @@ h1 {
 
 a {
     color: #BA487F;
-}
-
-/*****************************
- * Main                      *
- *****************************/
-main {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-width: 12px;
-    border-style: ridge;
-    border-color: #DED3C4;
-    color: #ffffff;
-    padding: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 80%;
 }
 
 /*****************************
@@ -72,6 +56,53 @@ header {
     color: rebeccapurple;
 }
 
+b {
+    text-decoration: underline wavy red;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-variant: small-caps;
+}
+
+/*****************************
+ * Main                      *
+ *****************************/
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 12px;
+    border-style: ridge;
+    border-color: #DED3C4;
+    color: #ffffff;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+table {
+    /*border: 2px solid white;*/
+    width: 100%;
+}
+
+thead {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    color: #000000;
+    background-color: wheat;
+    border: 2px solid white;
+    padding: 8px;
+}
+
+
+/*****************************
+ * Footer                    *
+ *****************************/
 footer {
     padding-top: 40px;
     background-color: #574964;
