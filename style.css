@@ -22,17 +22,24 @@ h1 {
     font-weight: 700;
 }
 
+a {
+    color: #BA487F;
+}
+
 /*****************************
  * Main                      *
  *****************************/
 main {
     background-color: rgba(0, 0, 0, 0.5);
+    border-width: 12px;
+    border-style: ridge;
+    border-color: #DED3C4;
     color: #ffffff;
     padding: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     width: 80%;
 }
 
@@ -44,7 +51,7 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     padding: 40px 40px;
-    background-color: #dded99;
+    background-color: #748DAE;
 }
 
 .menu {
@@ -57,10 +64,18 @@ header {
     color: #000000;
     border-width: 4px;
     border-style: ridge;
-    border-color: #88cc99;
+    border-color: #DED3C4;
     padding: 1em;
 }
 
 .menu-item:hover {
-    color: darkgreen;
+    color: rebeccapurple;
+}
+
+footer {
+    padding-top: 40px;
+    background-color: #574964;
+    color: white;
+    text-align: center;
+    height: 100px;
 }
